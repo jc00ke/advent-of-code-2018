@@ -13,7 +13,7 @@ def sum_of(start, lines, seen)
   sum_of(sum, lines, seen)
 end
 
-lines = IO.readlines("01.txt", chomp: true)
+lines = IO.readlines("data.txt", chomp: true)
 start = 0
 seen = Set[start]
 
